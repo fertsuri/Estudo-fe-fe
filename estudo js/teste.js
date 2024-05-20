@@ -10,5 +10,5 @@ else {
     console.log("não tem jeito, é bocó")
 }
 
-dqwqewqdasxczxczcsdasdasda
+
 
