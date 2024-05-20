@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos sonhos</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Pacotes</li>
+                <li>Taxa</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+        <h1>Venha realizar a viagem dos seus sonhos</h1>
+    </header>
+    <section>
+         <h2>Conheça nossos pacotes</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Arcu felis bibendum ut tristique et egestas quis. 
+            <br>
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Arcu felis bibendum ut tristique et egestas quis. 
+            <br>
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Arcu felis bibendum ut tristique et egestas quis. 
+            <br><br>  
+            <a href="https://loremipsum.io/generator/?n=3&t=p">Link</a>
+        </p>
+        <figure>
+            <img src="img/gramado.jpg" alt="fotografia do centro da cidade de Gramado no Rio Grande do Sul">
+            <figcaption>Gramado</figcaption> 
+        </figure>
+        <figure>
+            <img src="img/curitiba.jpg" alt="ponto turístico de Curitiba">
+            <figcaption>Curitiba</figcaption>
+        </figure>
+        <figure>
+            <img src="img/porto seguro.jpg" alt="praia em Porto Seguro">
+            <figcaption>Porto Seguro</figcaption>
+        </figure>
+    </section> 
+    <br><br>
+    <section>
+        <h2>Taxas e serviços</h2>
+        <p>Veja nossas taxas para serviços</p>
+        <table border="">
+            <caption>Descrição dos serviços e respectivos valores</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Serviço
+                    </th>
+                    <th>
+                    Valor
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Reserva de hotel 
+                    </td>
+                    <td>
+                        R$ 150,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Compra de passagens
+                    </td>
+                    <td>
+                        R$ 100,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Aluguel de carros
+                    </td>
+                    <td>
+                        R$ 50,00
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <h2>Orçamento</h2>
+    <form method="GET" action="">
+        <fieldset>
+            <legend>Dados do usuário</legend>
+            <label>Nome</label><br>
+            <input type="text" required name="Nome"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" required name="Email"><br><br>
+
+            <label>Data de ida</label><br>
+            <input type="date" name="dataIda"><br><br>
+
+            <label>Data de volta</label><br>
+            <input type="date" name="dataVolta"><br><br>
+
+            <label>Quantidade de pessoas</label><br>
+            <input type="number" name="qtdPessoas"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>O que gostaria de contratar?</legend><br>
+            <label>
+            <input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+            </label>
+            <label>
+            <input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+            </label>
+            <label>
+            <input type="checkbox" name="veículos" value="Veículos">Reserva de veículos
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Escolha a forma de pagamento</legend>
+            <label>
+                <br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito
+            </label>
+            <label>
+                <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+            </label>
+            <label>
+                <br><input type="radio" name="formaPagamento" value="Pix">Pix
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Escolha o prazo para pagamento</legend>
+            <select name="prazoPagamento">
+                <option value="aVista">À vista</option>
+                <option value="5x">5 vezes sem juros</option>
+                <option value="10x">10 vezes com juros</option>        
+            </select>
+        </fieldset>
+
+        <label>Comentário</label><br>
+        <textarea rows="5" name="Comentário"></textarea><br><br>
+
+        <button>Salvar</button>
+    </form>
+    <hr>   
+    <footer>
+        <p>Desenvolvido por Fernanda Barros</p>
+    </footer>  
+</body>
+</html>
